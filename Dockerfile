@@ -39,6 +39,9 @@ ADD wireguard/ /etc/wireguard/config/
 # copy local files
 ADD root/ /
 
+# Add the iQbit Theme
+ADD iqbit/ /theme/
+
 # ports and volumes
 EXPOSE 9091 51413
 VOLUME /config /downloads /watch
