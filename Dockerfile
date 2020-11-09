@@ -45,6 +45,3 @@ ADD iqbit/ /theme/
 # ports and volumes
 EXPOSE 9091 51413
 VOLUME /config /downloads /watch
-
-# starting wireguard
-ENTRYPOINT [ "wg-quick up /etc/wireguard/config/wg0.conf" ]
